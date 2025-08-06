@@ -41,6 +41,9 @@ const About: React.FC = () => {
                 <span className="py-1 px-3 bg-dark-100 dark:bg-dark-700 rounded-full text-dark-700 dark:text-dark-300 text-sm">
                   English (Fluent)
                 </span>
+                <span className="py-1 px-3 bg-dark-100 dark:bg-dark-700 rounded-full text-dark-700 dark:text-dark-300 text-sm">
+                  Tamil (Fluent)
+                </span>
               </div>
             </div>
 
@@ -66,7 +69,7 @@ const About: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105">
+            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105 hover:bg-blue-950">
               <div className="w-16 h-16 flex items-center justify-center bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 rounded-full mb-4">
                 <Monitor size={28} />
               </div>
@@ -79,7 +82,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105">
+            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105 hover:bg-blue-950">
               <div className="w-16 h-16 flex items-center justify-center bg-secondary-100 dark:bg-secondary-900/30 text-secondary-600 dark:text-secondary-400 rounded-full mb-4">
                 <Server size={28} />
               </div>
@@ -91,7 +94,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105">
+            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105 hover:bg-blue-950">
               <div className="w-16 h-16 flex items-center justify-center bg-accent-100 dark:bg-accent-900/30 text-accent-600 dark:text-accent-400 rounded-full mb-4">
                 <Database size={28} />
               </div>
@@ -104,7 +107,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105">
+            <div className="card p-6 flex flex-col items-center text-center transform transition-all duration-300 hover:scale-105 hover:bg-blue-950">
               <div className="w-16 h-16 flex items-center justify-center bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 rounded-full mb-4">
                 <Code size={28} />
               </div>
