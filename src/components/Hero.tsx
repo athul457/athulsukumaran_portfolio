@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import { ChevronDown, Mail, Phone } from 'lucide-react';
+import React from "react";
+import { Link } from "react-scroll";
+import { ChevronDown, Mail, Phone } from "lucide-react";
 
 const Hero: React.FC = () => {
   return (
@@ -19,10 +19,18 @@ const Hero: React.FC = () => {
                 Athul Sukumaran
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-dark-600 dark:text-dark-300 mb-8 max-w-xl animate-slide-down" style={{ animationDelay: '0.1s' }}>
-              Self-motivated full-stack developer with a passion for modern web technologies. Building responsive, performant, and scalable applications.
+            <p
+              className="text-xl md:text-2xl text-dark-600 dark:text-dark-300 mb-8 max-w-xl animate-slide-down"
+              style={{ animationDelay: "0.1s" }}
+            >
+              Self-motivated full-stack developer with a passion for modern web
+              technologies. Building responsive, performant, and scalable
+              applications.
             </p>
-            <div className="flex flex-wrap gap-4 animate-slide-down" style={{ animationDelay: '0.2s' }}>
+            <div
+              className="flex flex-wrap gap-4 animate-slide-down"
+              style={{ animationDelay: "0.2s" }}
+            >
               <Link
                 to="contact"
                 spy={true}
@@ -44,16 +52,31 @@ const Hero: React.FC = () => {
                 View My Work
               </Link>
             </div>
-            <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:gap-8 text-dark-600 dark:text-dark-300 animate-slide-down" style={{ animationDelay: '0.3s' }}>
+            <div
+              className="mt-10 flex flex-col sm:flex-row gap-4 sm:gap-8 text-dark-600 dark:text-dark-300 animate-slide-down"
+              style={{ animationDelay: "0.3s" }}
+            >
               <div className="flex items-center">
-                <Mail size={18} className="mr-2 text-primary-600 dark:text-primary-400" />
-                <a href="mailto:athulsukumara457@gmail.com" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                <Mail
+                  size={18}
+                  className="mr-2 text-primary-600 dark:text-primary-400"
+                />
+                <a
+                  href="mailto:athulsukumara457@gmail.com"
+                  className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                >
                   athulsukumaran457@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
-                <Phone size={18} className="mr-2 text-primary-600 dark:text-primary-400" />
-                <a href="tel:+918304968724" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                <Phone
+                  size={18}
+                  className="mr-2 text-primary-600 dark:text-primary-400"
+                />
+                <a
+                  href="tel:+918304968724"
+                  className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                >
                   +91 8304968724
                 </a>
               </div>
@@ -71,8 +94,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <Link
           to="about"
           spy={true}
@@ -81,9 +103,9 @@ const Hero: React.FC = () => {
           duration={500}
           className="w-10 h-10 rounded-full bg-white dark:bg-dark-800 shadow-md flex items-center justify-center cursor-pointer"
         >
-          <ChevronDown className="text-primary-600 dark:text-primary-400" />
-        </Link>
-      </div>
+          {/* <ChevronDown className="text-primary-600 dark:text-primary-400" /> */}
+      {/* </Link> */}
+      {/* </div> */} *
     </section>
   );
 };
