@@ -107,6 +107,35 @@ const projectsData: Project[] = [
     github: "https://github.com/athul457/react-movie-app",
     live: "https://cinema-application-react.netlify.app/",
   },
+  {
+    id: 5,
+    title: "Yum Yum Gooo",
+    description:
+      "A modern React food delivery app with a clean UI, allowing users to search for foods, manage favorites, and apply discount coupons for savings.",
+    image:
+      "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: [
+      "React",
+      "React DOM",
+      "Vite",
+      "JavaScript",
+      "CSS3",
+      "Context API",
+      "React Router",
+    ],
+    features: [
+      "Search foods by name",
+      "Add or remove favorite foods",
+      "Apply discount coupons",
+      "Multi-page navigation with React Router",
+      "Global state management using Context API",
+      "Component-based architecture",
+    ],
+    challenges:
+      "Managing state for favorites, handling search efficiently, and applying coupon logic while maintaining performance.",
+    github: "https://github.com/athul457/react-food-app",
+    live: "https://yumyumgooo.netlify.app/",
+  },
 ];
 
 const Projects: React.FC = () => {
