@@ -137,7 +137,7 @@ const projectsData: Project[] = [
     live: "https://yumyumgooo.netlify.app/",
   },
   {
-    id: 2,
+    id: 6,
     title: "Multimart Ecommerce App",
     description:
       "A responsive ecommerce web application built with React and Redux Toolkit, offering product browsing, cart management, and a seamless shopping experience.",
