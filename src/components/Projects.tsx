@@ -124,17 +124,37 @@ const projectsData: Project[] = [
       "React Router",
     ],
     features: [
-      "Search foods by name",
-      "Add or remove favorite foods",
+      "Search Items by name",
+      "Add or remove favorite Items",
       "Apply discount coupons",
       "Multi-page navigation with React Router",
-      "Global state management using Context API",
+      "Global state management using Redux Toolkit",
       "Component-based architecture",
     ],
     challenges:
       "Managing state for favorites, handling search efficiently, and applying coupon logic while maintaining performance.",
     github: "https://github.com/athul457/react-food-app",
     live: "https://yumyumgooo.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Multimart Ecommerce App",
+    description:
+      "A responsive ecommerce web application built with React and Redux Toolkit, offering product browsing, cart management, and a seamless shopping experience.",
+    image:
+      "https://images.pexels.com/photos/3945657/pexels-photo-3945657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: ["React", "Redux Toolkit", "React Router", "CSS"],
+    features: [
+      "Browse and view product details",
+      "Add to cart, increase/decrease quantity",
+      "User-friendly navigation and category filters",
+      "Responsive design for all screen sizes",
+      "Global state management using Redux Toolkit",
+    ],
+    challenges:
+      "Implementing a scalable state management system and ensuring smooth UI performance while handling multiple product interactions.",
+    github: "https://github.com/athul457/e-com-app",
+    live: "https://e-com-shop-pplication.netlify.app/",
   },
 ];
 
