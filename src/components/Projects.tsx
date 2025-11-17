@@ -156,6 +156,34 @@ const projectsData: Project[] = [
     github: "https://github.com/athul457/e-com-app",
     live: "https://e-com-shop-pplication.netlify.app/",
   },
+  {
+    id: 7,
+    title: "CareerConnect Job Portal",
+    description:
+      "A modern job portal built with the MERN stack, enabling job seekers to find opportunities and employers to post jobs with role-based dashboards and secure authentication.",
+    image:
+      "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT Authentication",
+      "Tailwind CSS",
+    ],
+    features: [
+      "Role-based login and registration (Employer & Job Seeker)",
+      "Employers can post, edit, and manage job listings",
+      "Job seekers can search, filter, and apply for jobs",
+      "Resume upload support with Cloudinary integration",
+      "Personalized dashboards for employers and job seekers",
+      "Responsive UI with React and Tailwind CSS",
+    ],
+    challenges:
+      "Implementing secure role-based authentication and designing separate dashboards that handle job posting, application tracking, and resume management efficiently.",
+    github: "https://github.com/athul457/job-portal-frontend",
+    live: "https://careerconnect-jobportal.netlify.app/",
+  },
 ];
 
 const Projects: React.FC = () => {
